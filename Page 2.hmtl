@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <style>
+    body {
+      background: #ffe6ea;
+      text-align: center;
+      font-family: Arial;
+      margin-top: 80px;
+    }
+    .msg {
+      display: none;
+      font-size: 22px;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>💌 Just for you 💌</h2>
+
+<div class="msg">aap haste huye bohat pyare lagte ho ,😊 aise hi smile krte raho...cute toh ho 🫣🤭</div>
+<div class="msg"> vese hamne kam time bitaya h sath but Every moment with you feels special 💖</div>
+<div class="msg">tumsa mile jo koi rahgujar duniya se kon dare...4 kadam bas 4 kadam chal do na sath mere 🫂💞</div>
+    
+<div class="msg"> tumse acha tumse behatar mere kaam ka nhii...qki aapse best h hi mere liye bhagwan ne bnaya hi nhii😊
+</div>
+<div class="msg">pahle m sochti thi ...aap kafi rude ho but with time i think meri choic h to badhiya 😉 I am proud of my choice 😚😂</div>
+<div class="msg">will you stay with me forever???🥺❤️</div>
+
+
+<button onclick="nextMsg()">Next 💫</button>
+
+<script>
+let i = 0;
+function nextMsg() {
+  let msgs = document.getElementsByClassName("msg");
+  if (i < msgs.length) {
+    msgs[i].style.display = "block";
+    i++;
+  }
+}
+</script>
+
+</body>
+</html>
